@@ -427,14 +427,14 @@ svg {
 
 .aricles-container {
   display: flex;
-  gap: 40px;
+  gap: 50px;
   height: 200px;
   padding: 0 0 0 90px;
   /* justify-content: space-evenly; */
 }
 
 article {
-  width: 350px;
+  width: 280px;
 }
 
 article p {
@@ -448,7 +448,7 @@ article a {
   text-decoration: none;
 }
 
-.extra {
+/* .extra {
   background-color: rgb(108, 181, 45);
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
@@ -460,13 +460,24 @@ article a {
   position: relative;
   right: -20px;
   width: 400px;
+} */
+
+.extra {
+  background-color: rgb(109, 179, 63);
+  border-radius: 50%;
+  font-size: 100px;
+  height: 3em;
+  position: absolute;
+  right: -70px;
+  top: 70px;
+  width: 3em;
 }
 
 .footer-svg {
   height: 100px;
   position: absolute;
-  top: 60px;
-  right: 150px;
+  top: 54px;
+  right: 120px;
   z-index: 3;
 }
 
@@ -516,13 +527,19 @@ label span {
   background-color: black;
   border: none;
   color: white;
+  cursor: pointer;
   font-size: 16px;
   padding: 11px 20px;
 }
 
+.footer-btn-container input:hover {
+  background-color: rgb(109, 179, 63);
+}
+
 .footer-email-container input {
   border: 2px solid black;
-  padding: 11px 40px;
+  padding: 11px 40px 11px 20px;
+  outline: none;
 }
 
 .cb-label {
@@ -612,4 +629,26 @@ footer li {
 
 #hover-effect:hover::after {
   transform: scale(1);
+}
+
+.socials-icon-container {
+  display: flex;
+  font-size: 20px;
+  gap: 20px;
+}
+
+#socials-container {
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-flex;
+  font-size: 40px;
+  justify-content: center;
+  height: 1em;
+  width: 1em;
+}
+
+#socials-container i {
+  color: white;
+  font-size: 24px;
 }

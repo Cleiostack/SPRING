@@ -430,7 +430,6 @@ svg {
   gap: 50px;
   height: 200px;
   padding: 0 0 0 90px;
-  /* justify-content: space-evenly; */
 }
 
 article {
@@ -447,20 +446,6 @@ article a {
   color: rgb(80, 151, 212);
   text-decoration: none;
 }
-
-/* .extra {
-  background-color: rgb(108, 181, 45);
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  bottom: -20px;
-  height: 400px;
-  position: absolute;
-  position: relative;
-  right: -20px;
-  width: 400px;
-} */
 
 .extra {
   background-color: rgb(109, 179, 63);

@@ -140,6 +140,7 @@ nav {
   position: absolute;
   top: 15px;
   width: 220px;
+  z-index: 3;
 }
 
 #dropdown-list a {
@@ -187,7 +188,7 @@ aside {
   position: relative;
   display: inline-block;
   width: 60px;
-  height: 34px;
+  height: 14px;
 }
 
 .switch input {
@@ -211,17 +212,17 @@ aside {
 .slider:before {
   position: absolute;
   content: "";
-  height: 16px;
-  width: 16px;
+  height: 15px;
+  width: 15px;
   left: 4px;
-  bottom: 4px;
+  bottom: 1px;
   background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: black;
 }
 
 input:focus + .slider {
